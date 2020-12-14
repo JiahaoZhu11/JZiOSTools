@@ -1,0 +1,16 @@
+PODS:
+  - JZiOSTools (0.1.0)
+
+DEPENDENCIES:
+  - JZiOSTools (from `../`)
+
+EXTERNAL SOURCES:
+  JZiOSTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JZiOSTools: 5f9ffcfe65d7a6ca55a5240631b8e8afc7ea23e5
+
+PODFILE CHECKSUM: 5a3420e1ea4eb4025a96754398ffdd884c1c7ef5
+
+COCOAPODS: 1.10.0
