@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		365E9C4B45C3EF8D75925707 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		365E9C4B45C3EF8D75925707 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JZiOSTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZiOSTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +39,11 @@
 		607FACE51AFB9204008FA782 /* JZiOSTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZiOSTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64E3C6419624D4ADEB79A23A /* JZiOSTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JZiOSTools.podspec; path = ../JZiOSTools.podspec; sourceTree = "<group>"; };
+		64E3C6419624D4ADEB79A23A /* JZiOSTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JZiOSTools.podspec; path = ../JZiOSTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8BAA4F2323CAF9C1D370DD01 /* Pods-JZiOSTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZiOSTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-JZiOSTools_Tests/Pods-JZiOSTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F72CE7D471EDD39E86C40C7 /* Pods_JZiOSTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZiOSTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		97D6007DD11867DFBB8B287B /* Pods-JZiOSTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZiOSTools_Example.release.xcconfig"; path = "Target Support Files/Pods-JZiOSTools_Example/Pods-JZiOSTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A76518C00E523E04012625C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A76518C00E523E04012625C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B9F09F9DF91733732350DA79 /* Pods-JZiOSTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZiOSTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JZiOSTools_Tests/Pods-JZiOSTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BDC36018D8C00D45AB45681E /* Pods-JZiOSTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JZiOSTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-JZiOSTools_Example/Pods-JZiOSTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F5F98C6065FB0D0BC8A5126C /* Pods_JZiOSTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JZiOSTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +86,6 @@
 				B9F09F9DF91733732350DA79 /* Pods-JZiOSTools_Tests.debug.xcconfig */,
 				8BAA4F2323CAF9C1D370DD01 /* Pods-JZiOSTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
