@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JZiOSTools'
-  s.version          = '0.9.0'
+  s.version          = '0.9.1'
   s.summary          = 'Some common iOS tools that can make development easier.'
 
 # This description is used to generate tags and improve search results.
