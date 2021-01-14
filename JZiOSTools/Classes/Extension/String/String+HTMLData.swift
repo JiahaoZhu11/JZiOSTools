@@ -63,16 +63,16 @@ public extension String {
 
 public class HTMLNode {
     
-    var val : String?
+    public var val : String?
     
-    var parent: HTMLNode?
+    public var parent: HTMLNode?
     
-    var next : [HTMLNode]?
+    public var next : [HTMLNode]?
     
 }
 
 public class HTMLData {
     
-    var head : HTMLNode = HTMLNode()
+    public var head : HTMLNode = HTMLNode()
     
 }
