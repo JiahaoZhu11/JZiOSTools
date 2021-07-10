@@ -22,7 +22,7 @@ pod 'JZiOSTools'
 
 ## Author
 
-jiahao_zhu98@outlook.com, jiahao.zhu@maibaapp.cn
+jiahao_zhu98@outlook.com
 
 ## License
 
